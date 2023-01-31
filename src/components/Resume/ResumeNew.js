@@ -43,7 +43,10 @@ function ResumeNew() {
             {Array.apply(null, Array(numPages))
               .map((x, i) => i + 1)
               .map((page) => (
-                <Page pageNumber={page} scale={width > 786 ? 1.7 : 0.6} />
+                <>
+                  <Page pageNumber={page} scale={width > 786 ? 1.7 : 0.6} />
+                  <div style={{ height: "1em" }} />
+                </>
               ))}
           </Document>
         </Row>
