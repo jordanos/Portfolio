@@ -8,6 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import eventManagement from "../../Assets/Projects/event-management.png";
+import ricaEcommerce from "../../Assets/Projects/rica-ecommerce.jpg";
+import taskManager from "../../Assets/Projects/task-manager.png";
+import telegramBot from "../../Assets/Projects/telegram-voice-chat.jpg";
 
 function Projects() {
   return (
@@ -21,72 +25,47 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={eventManagement}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Event management SaaS app"
+              description="A webapp made for managing events in a modern way. I was involved in building the front-end portal which is made with ReactJS. It's a role-based system, supports caching, live data using websockets and highly interactive. The software is a subscription plan based service which also has a public website and a mobile app for event ticket purchasing."
+              demoLink="https://drive.google.com/file/d/1rCs6IQnYAyP8xsPXhGUHNhL6W9osTbGs/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ricaEcommerce}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Rica shopping"
+              description="This ecommerce mobile app lets users sell and buy items online. it's made with flutter and MERN stack and I was involved in building the back-end, front-end admin portal and I also contributed to the mobile app that was made with flutter."
+              ghLink="https://github.com/jordanos/MERN-ecommerce"
+              demoLink="https://play.google.com/store/apps/details?id=com.ricamobile.rica"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={taskManager}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Task manager"
+              description="A full-stack task manager webapp that let users create and track their daily tasks. I've used MERN stack for this project."
+              ghLink="https://github.com/jordanos/task-manager"
+              demoLink="https://drive.google.com/file/d/179-a5hgSJU_LMVJZ0mzfY3N03DlL8EI_/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={telegramBot}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Stranger voice chat bot"
+              description="A telegram bot that let random strangers pair for a voice chat with their choice of discussion topic. I used python, postgresql and telegram bot API. Even-though this was one of my first real-world projects, I learned a lot from it and it got around 1000 visitors within a week. The bot has capabilities like: a feature to filter voice chat partners with gender for a small amount of fee."
+              demoLink="https://drive.google.com/file/d/1jO9TyXrdNJ5zuZ667x2V2AzK66Zq0fU-/view?usp=sharing"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
